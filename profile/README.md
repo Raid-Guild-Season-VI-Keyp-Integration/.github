@@ -21,7 +21,7 @@ To test the end-to-end functionality, follow these steps:
 1. Download Minetest from the official website (https://www.minetest.net/downloads/).
 2. Open the Minetest client and click on "Join Game."
 3. In the provided fields, enter the following details:
-   - Address: 59.65.178.102 (alternatively, minetest.saltyhash.xyz should work shortly)
+   - Address: minetest.saltyhash.xyz
    - Port: 30000
    - Choose any username.
 4. Click on "Register" and create a password.
