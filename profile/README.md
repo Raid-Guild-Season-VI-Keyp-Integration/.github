@@ -44,7 +44,7 @@ security for auth server:
 
 3. **Expanded Transaction Support**: Extend the server's functionality to support additional types of transactions within the game. This could involve integrating with various web3 protocols and expanding the available transaction options for users.
 
-4. **deployment**: create a docker compose yml that would spin up all 3 apps on a single VM so that someone could easily deploy their own version. but also there are many ways to deploy (terraform etc. ) so leaving it up to the admin makes sense too.
+4. **Deployment**: Create a docker compose yml that would spin up all 3 apps on a single VM so that someone could easily deploy their own version. but also there are many ways to deploy (terraform etc. ) so leaving it up to the admin makes sense too.
 
 ## Team Members
 
@@ -56,6 +56,6 @@ The following individuals contributed to the development of this project:
 
 3. **SaltyHash (Paladin)**: Developed the game mod integration, contributed to server development, provided support to the team, and played a key role in defining the initial specifications and vision.
 
-4. **Xxxavier**: Assisted with server development, coordinated efforts within the team, and integrated the keyp SDK.
+4. **XXavier_Dev (Paladin)**: Assisted with server development, coordinated efforts within the team, and integrated the keyp SDK.
 
 Please note that the above information is based on the given details, and any additional specifics can be added to provide a more comprehensive overview of the project.
