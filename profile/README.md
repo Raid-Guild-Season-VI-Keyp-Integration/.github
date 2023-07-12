@@ -32,9 +32,19 @@ There are several areas that can be improved in this integration:
 
 1. **Enhancing Security**: Implement additional security measures to ensure that only authorized individuals can access sensitive information. This may involve encryption, stronger authentication protocols, and secure storage of session tokens and authentication codes.
 
+```
+security for auth server:
+1) add API key ( we only want the next front end and minetest server calling the auth-server. right now anyone could do that and spam 6 digit codes to get someones access token). we could just use the standard "Authorization" header for an api
+2) time gate the codes (add a time stamp on creating the store and check if it's >10 mins old on the get api call)
+3) make sure they're only used once (would be as simple as deleting the code and token from the store once redeemed)
+
+```
+
 2. **Server Optimization**: Test and improve the server's performance to handle increased traffic and scalability. This includes load testing, code optimization, and potentially utilizing caching mechanisms or distributed architectures.
 
 3. **Expanded Transaction Support**: Extend the server's functionality to support additional types of transactions within the game. This could involve integrating with various web3 protocols and expanding the available transaction options for users.
+
+4. **deployment**: create a docker compose yml that would spin up all 3 apps on a single VM so that someone could easily deploy their own version. but also there are many ways to deploy (terraform etc. ) so leaving it up to the admin makes sense too.
 
 ## Team Members
 
